@@ -1,15 +1,16 @@
-#rcnt {
+#main {
   display: flex;
   justify-content: center;
-  min-width: 1146px;
 
-  .D6j0vc {
-    width: unset !important;
-    order: 2;
+  #rcnt {
+    display: flex;
+    justify-content: center;
+    min-width: 1146px;
 
     #center_col {
       width: 672px !important;
       margin-left: 0 !important;
+      order: 2;
 
       // Mathematical formulas, etc.
       .OeVqAd {

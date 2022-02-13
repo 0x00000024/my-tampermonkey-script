@@ -56,7 +56,7 @@
 
 #rhs {
   margin-left: 0 !important;
-  margin-right: 10px;
+  margin-right: 120px;
   order: 1;
 }
 
@@ -75,20 +75,21 @@
   order: 2;
 }
 
-#rcnt {
+#main {
+  display: flex;
+  justify-content: center;
+}
+#main #rcnt {
   display: flex;
   justify-content: center;
   min-width: 1146px;
 }
-#rcnt .D6j0vc {
-  width: unset !important;
-  order: 2;
-}
-#rcnt .D6j0vc #center_col {
+#main #rcnt #center_col {
   width: 672px !important;
   margin-left: 0 !important;
+  order: 2;
 }
-#rcnt .D6j0vc #center_col .OeVqAd {
+#main #rcnt #center_col .OeVqAd {
   margin-left: 700px;
 }
 
