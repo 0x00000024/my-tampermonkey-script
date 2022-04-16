@@ -1,0 +1,11 @@
+#content {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+  .main {
+    border-left: unset;
+    margin-left: unset;
+    padding-left: unset;
+  }
+}
