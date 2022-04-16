@@ -1,0 +1,17 @@
+.wordPage {
+  padding-top: 5%;
+}
+
+.definition-columns {
+  justify-content: center !important;
+}
+.definition-columns .col-1 {
+  width: 80% !important;
+  top: 10%;
+}
+
+.pos-icon {
+  user-select: none;
+}
+
+/*# sourceMappingURL=vocabulary.com.css.map */
