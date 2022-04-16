@@ -1,0 +1,12 @@
+#content {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#content .main {
+  border-left: unset;
+  margin-left: unset;
+  padding-left: unset;
+}
+
+/*# sourceMappingURL=dict.cn.css.map */
