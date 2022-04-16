@@ -1,0 +1,17 @@
+.appbar {
+  min-width: unset;
+
+  #slim_appbar {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+
+    .LHJvCe {
+      min-width: unset !important;
+
+      #result-stats {
+        padding-right: 0 !important;
+      }
+    }
+  }
+}
