@@ -1,11 +1,13 @@
 #main {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   #rcnt {
     display: flex;
     justify-content: center;
     min-width: 1146px;
+    //min-height: unset !important;
 
     #center_col {
       width: 672px !important;
@@ -19,3 +21,4 @@
     }
   }
 }
+
