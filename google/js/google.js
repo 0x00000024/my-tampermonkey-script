@@ -7,16 +7,24 @@
 // @include      *://*.google*/search*
 // @exclude      *://*.google*/search?tbm=shop*
 // @icon         https://www.google.com/s2/favicons?domain=google.com
-// @grant        GM_getResourceText
+// @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
-// @resource     customCSS file:///Users/ethan/test/my-tampermonkey-script/google/build/stylesheets/google.css
 // @run-at       document-start
 // ==/UserScript==
 
 (function() {
   'use strict';
+
+  const cssURL = 'https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/google/build/stylesheets/google.css';
+
   console.debug('start: add CSS');
-  const cssTxt = GM_getResourceText("customCSS");
-  GM_addStyle(cssTxt);
-  console.debug('done: add CSS');
+
+  GM_xmlhttpRequest({
+    method: "GET",
+    url: cssURL,
+    onload: function(response) {
+      GM_addStyle(response.responseText);
+      console.debug('done: add CSS');
+    }
+  });
 })();
