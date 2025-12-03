@@ -2,4 +2,10 @@
   display: flex;
   justify-content: center; }
 
+.pos-icon {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
 /*# sourceMappingURL=vocabulary.com.css.map */
