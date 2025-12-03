@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         ChatGPT Auto-Run from ?q=
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Auto-fill and auto-send ChatGPT prompt when URL has ?q= or ?prompt=
 // @author       Ethan Yu
 // @match        https://chatgpt.com/*
 // @match        https://chat.openai.com/*
+// @icon         https://www.google.com/s2/favicons?domain=chatgpt.com
 // @updateURL    https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/chatgpt/js/chatgpt.js
 // @downloadURL  https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/chatgpt/js/chatgpt.js
 // @grant        none
