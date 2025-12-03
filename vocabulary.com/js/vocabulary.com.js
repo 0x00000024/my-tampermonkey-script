@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Vocabulary.com Enhancements
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.0
 // @description  Enhance vocabulary.com with custom styles
 // @author       Ethan Yu
 // @match        *://*.vocabulary.com/*
 // @icon         https://www.google.com/s2/favicons?domain=vocabulary.com
+// @updateURL    https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/vocabulary.com/js/vocabulary.com.js
+// @downloadURL  https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/vocabulary.com/js/vocabulary.com.js
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @run-at       document-start

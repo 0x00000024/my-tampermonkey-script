@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Dict.cn
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.0
 // @description  try to take over the world!
 // @author       Ethan Yu
 // @match        *://*.dict.cn/*
 // @icon         https://www.google.com/s2/favicons?domain=dict.cn
+// @updateURL    https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/dict.cn/js/dict.cn.js
+// @downloadURL  https://raw.githubusercontent.com/0x00000024/my-tampermonkey-script/main/dict.cn/js/dict.cn.js
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @run-at       document-start
